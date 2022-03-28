@@ -1,0 +1,10 @@
+# mac系统的文件
+.DS_Store
+# local 配置
+local.properties
+# gradle相关
+.gradle
+# build产生的文件
+build/
+# idea工程文件
+.idea/

@@ -1,0 +1,16 @@
+<idea-plugin>
+    <id>me.pxq.asplugin.pocket</id>
+    <name>Pocket</name>
+
+    <description></description>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+    </actions>
+</idea-plugin>

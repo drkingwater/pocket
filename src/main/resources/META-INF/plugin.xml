@@ -1,16 +1,19 @@
 <idea-plugin>
     <id>me.pxq.asplugin.pocket</id>
     <name>Pocket</name>
-
-    <description></description>
+    <vendor>pxq</vendor>
 
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <!-- Add your extensions here -->
+        <applicationService serviceImplementation="me.pxq.asplugin.pocket.datasource.PocketProvider"/>
     </extensions>
 
     <actions>
-        <!-- Add your actions here -->
+        <action id="PocketAction"
+                class="me.pxq.asplugin.pocket.PocketAction"
+                text="Website Pocket">
+            <add-to-group group-id="ToolsMenu" anchor="last"/>
+        </action>
     </actions>
 </idea-plugin>
